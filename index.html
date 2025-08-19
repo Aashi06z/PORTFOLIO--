@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #f9c5d1, #fbc2eb);
+      text-align: center;
+      padding: 4rem 2rem;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      background: #ffe3ec;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #f9c5d1;
+    }
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #ffe3ec;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+    footer p {
+      margin: 0.5rem 0;
+      color: #555;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-family: inherit;
+    }
+    form button {
+      background: #f9c5d1;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    form button:hover {
+      background: #fbc2eb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Aashi Verma ✨</h1>
+    <p>Documenting My Learning, Projects & Achievements</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#blogs">Blogs</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <h2>🌸 Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Wishlist Tracker</h3>
+        <p>Track your goals and wishlist items easily with this clean app.</p>
+        <a href="https://aashi06z.github.io/Wishlist-Tracker/">App link</a>
+      </div>
+      <div class="card">
+        <h3>Mood Journal</h3>
+        <p>Record your daily moods with a minimalistic interface and pastel vibe.</p>
+        <a href=" https://aashi06z.github.io/Mood-journal/">App link</a>
+      </div>
+      <div class="card">
+        <h3>Currency Converter</h3>
+        <p>Quickly convert currencies with real-time exchange rates.</p>
+        <a href="https://aashi06z.github.io/currency-converter/">App link</a>
+      </div>
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>Check live weather forecasts with a simple pastel-themed UI.</p>
+        <a href="https://aashi06z.github.io/weather-app/">App link</a>
+      </div>
+      <div class="card">
+        <h3>Calculator</h3>
+        <p>A clean and easy-to-use web calculator for daily calculations.</p>
+        <a href="https://aashi06z.github.io/calculator/">App link</a>
+      </div>
+    </div>
+  </section>
+
+<section id="certificates"> 
+    <h2>📜 Certificates</h2> 
+    <div class="grid"> 
+    <div class="card"><a href="certificates/google.pdf" target="_blank">Google Certificate</a></div> 
+    <div class="card"><a href="certificates/microsoft.pdf" target="_blank">Microsoft Certificate</a></div> 
+    <div class="card"><a href="certificates/databricks.pdf" target="_blank">Databricks Certificate</a></div> 
+    <div class="card"><a href="certificates/jpmorgan.pdf" target="_blank">JP Morgan Virtual Internship</a></div> 
+</div> 
+</section>
+
+
+  <section id="blogs">
+    <h2>📝 Blogs</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>How AI Algorithms Are Trained Using Data</h3>
+        <p>This article explains how AI algorithms learn from data, covering the process of training models, using datasets, and improving performance through repeated learning and optimization.</p>
+        <a href="https://medium.com/@aashii06z/how-ai-algorithms-are-trained-using-data-9c4547b34388">Read More</a>
+      </div>
+      <div class="card">
+        <h3>From Doctors to Designers: How AI Is Quietly Reinventing Every Profession</h3>
+        <p>This article explores how AI is transforming professions across the board, from healthcare to creative fields, reshaping the way work is done and redefining professional roles.</p>
+        <a href="https://medium.com/@aashii06z/from-doctors-to-designers-how-ai-is-quietly-reinventing-every-profession-08b2b7b029d2">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>💫 About Me</h2>
+    <p>Hi, I’m Aashi, a tech enthusiast passionate about AI, cloud, and creative problem solving. I’ve completed certifications from Google, Microsoft, and Databricks, and recently worked on an internship project with J.P. Morgan. I love experimenting with generative AI, writing about tech on Medium, and building fun yet impactful projects. Currently, I’m exploring opportunities in computer science and AI where I can learn, contribute, and grow.</p>
+  </section>
+
+  <footer>
+    <p>🌷 Made with love by Aashi Verma</p>
+    <p>Find me on <a href="https://www.linkedin.com/in/aashiverma06z/">LinkedIn</a> | <a href="https://github.com/Aashi06z">GitHub</a> | <a href="https://medium.com/@aashii06z">Medium</a></p>
+  </footer>
+
+</body>
+</html>
